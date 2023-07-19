@@ -5,14 +5,7 @@ import math
 
 
 class MidpointLine:
-    """
-    This class is designed to display the last two digits of a student id.
-    User can input his/her student id and the last two digits will be displayed in the window.
-    Here Mid Point Line (MPL) with 8-Way Symmetry is used.
-
-    Author- Priom Deb
-    http://priomdeb.com, priom@priomdeb.com
-    """
+    
     def __init__(self):
         self.__midpoint_points = []
 

@@ -14,13 +14,7 @@ circle = MidpointCircle()
 
 
 class UI_Text:
-    """
-    This class is designed to a circle using midpoint circle algorithm with 8-way symmetry
-    Author- Priom Deb
-    http://priomdeb.com, priom@priomdeb.com
-    """
-    def __init__(self, win_size_x=500, win_size_y=500, win_pos_x=0, win_pos_y=0, title="Priom OpenGL Class",
-                 pixel_size=1):
+    def __init__(self, win_size_x=500, win_size_y=500, win_pos_x=0, win_pos_y=0, title="Priom OpenGL Class",pixel_size=1):
         self.win_size_x = win_size_x
         self.win_size_y = win_size_y
         self.win_pos_x = win_pos_x

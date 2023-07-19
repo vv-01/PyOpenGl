@@ -555,13 +555,14 @@ class Survive_In_Space:
     def show_screen(self):
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         glLoadIdentity()
+        glColor(1,1,1)
+        CUBE(y=OBJECT1_CURRENT_Y_POSITION)
         glColor3f(1, 1, 0)
 
         # Drawing methods
         self.road()
         self.road_decorators(-10)
         self.road_decorators(1400, 0)
-        # CUBE(y=OBJECT1_CURRENT_Y_POSITION)
         ui_text.health_text(-1900, 200)
         ui_text.score_text(950, 200)
 
